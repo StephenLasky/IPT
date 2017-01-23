@@ -94,55 +94,7 @@ int main(int argc, const char * argv[]) {
             break;
         }
     }
-    
-    /*
-     
-     DEBUG:  current buf location: 8
-     DEBUG:  logitem header kind: 0
-     DEBUG:  hex at buf: 7fb88081b018
-     Process: tgid=1805 cmd_size=5 cmd=a.out
-     DEBUG:  current buf location: 25
-     DEBUG:  logitem header kind: 1
-     DEBUG:  hex at buf: 7fb88081b035
-     Thread: tgid=1805 pid=1805
-     DEBUG:  current buf location: 3d
-     DEBUG:  logitem header kind: 2
-     DEBUG:  hex at buf: 7fb88081b04d
-     xpage: tgid=1805 base=400000 size=1000
-     DEBUG:  current buf location: 105d
-     DEBUG:  logitem header kind: 4
-     DEBUG:  hex at buf: 7fb88081c06d
-     xpage: tgid=1805 base=7ffff7ddc000 size=20000
-     DEBUG:  current buf location: 2107d
-     DEBUG:  logitem header kind: 4
-     DEBUG:  hex at buf: 7fb88083c08d
-     xpage: tgid=1805 base=7ffff7ffa000 size=2000
-     DEBUG:  current buf location: 2309d
-     DEBUG:  logitem header kind: 4
-     DEBUG:  hex at buf: 7fb88083e0ad
-     xpage: tgid=1805 base=7ffff7a33000 size=3a9000
-     DEBUG:  current buf location: 3cc0bd
-     DEBUG:  logitem header kind: 4
-     DEBUG:  hex at buf: 7fb880be70cd
-     buffer: pid=1805, size=5040
-     DEBUG:  current buf location: 3cd495
-     DEBUG:  logitem header kind: 0
-     DEBUG:  hex at buf: 7fb880be84a5
 
-     
-
-     
-     */
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    return 0;
+	return 0;
 }
 
