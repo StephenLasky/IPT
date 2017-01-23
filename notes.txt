@@ -1,4 +1,4 @@
-to complie:         gcc -g -o ipt main.c IPT.c logitem_list.c -L . -lpt
+to complie:         gcc -g -o ipt main.c IPT.c -L . -lpt
 to see locals:      (gdb) bt
                     (gdb) select-frame X
                     (gdb) info locals
