@@ -72,6 +72,7 @@ int main(int argc, const char * argv[]) {
             
             /* add xpage */
             // TODO: NEED TO ADD XPAGE CODE HERE: pt_add_xpage
+			pt_add_xpage(buf, new_logitem_xpage->size, new_logitem_xpage->base);
             
             /* print info */
             printf("xpage: tgid=%lu base=%lx size=%lx\n", new_logitem_xpage->tgid, new_logitem_xpage->base, new_logitem_xpage->size);
