@@ -1,0 +1,31 @@
+to complie:         gcc -g -o ipt main.c IPT.c logitem_list.c -L . -lpt
+to see locals:      (gdb) bt
+                    (gdb) select-frame X
+                    (gdb) info locals
+
+buf_o:              0x7ffff7640010
+
+
+XPAGE   LOCATION        SIZE    
+1       0x7ffff764006d  1000    /lib64/ld-linux-x86-64.so.2
+2       0x7ffff764108d  20000   ld-linux-x86-64.so.2 
+3       0x7ffff76610ad  2000    linux-vdso.so.1 
+4       0x7ffff76630cd  3a9000
+
+
+VIM: to search and replace: :%s/ORIGINAL/NEW/g
+VIM: to view file as hex: :%!xxd    -> (: to normal model, % whole file, ! execute, xxd)
+VIM: get number of matches: :%s/PATTERN/gn
+
+GDB: to see structure type: ptype [varname]                  
+GDB: log output: set logging on
+GDB: stop logging output: set logging off
+GDB: get global variables 
+
+LINUX: to see file size: ls -l filename 
+
+WHAT WE WERE DOING LAST?: The program is essentially complete: with the notable exception of some missing instructions. They appear to not be in lib c as they should be. Also, we should automate a full test.
+
+
+
+
